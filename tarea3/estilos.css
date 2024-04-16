@@ -1,0 +1,39 @@
+h1{
+	color: teal;
+}
+h2,em,caption{
+	color: blue;
+}
+table,td,th{
+	border:1px solid black;
+}
+table{
+	border-collapse: collapse;
+}
+th,td{
+	padding: 8px;
+}
+div{
+	color: olive;
+}
+strong,a{
+	color: red;
+}
+.destacado{
+	color: orange;
+}
+.especial{
+	color: purple;
+}
+tbody th,tfoot th{
+	color: red;
+}
+th.especial,td strong{
+	color: orange;
+}
+td,td em,div a{
+	color: green;
+}
+div  #especial{
+	color: fuchsia;
+}
