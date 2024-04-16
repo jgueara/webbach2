@@ -1,0 +1,32 @@
+body{
+	color:  #2980b9;
+	background-color: rgb(254,245,231);
+}
+h1{
+	font-size:  3em; /*Tamaño del texto*/
+	text-align: center;/*Alineación del texto*/
+	padding: 10px;/*margen interno*/
+	margin: 0 auto;/*margen externo*/
+	background-color:#f5b7b1 ;
+	width: 80%;
+	border-radius: 15px;
+}
+a{
+	text-decoration: none;
+	font-weight: bold;
+	color:#922b21;
+	border: 2px solid blue;
+	border-radius: 10px;
+	background-color: orange;
+	padding: 5px;
+}
+a:hover{
+	background-color: greenyellow;
+}
+ul{
+	list-style: none;
+}
+li{
+	margin: 20px;
+	padding: 10px;
+}
