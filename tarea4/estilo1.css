@@ -1,0 +1,47 @@
+/*Menu horizontal - estilos*/
+#menuhorizontal{
+	list-style-type: none;
+	margin-left:100px;
+}
+#menuhorizontal a{
+	text-decoration: none;
+	color: red;
+	font-weight: bold;
+	background-color:  #fdf2e9;
+	padding: 10px;
+	display: block;
+	width: 100px;
+	border-right: 1px solid red;
+	text-align: center;
+}
+#menuhorizontal a:hover{
+	background-color: orange;
+	color: blue;
+}
+#menuhorizontal li{
+	float: left;
+}
+/*menuvertical estilos*/
+#menuvertical{
+	list-style-type: none;
+	margin-top: 50px;
+}
+
+#menuvertical a{
+	text-decoration: none;
+	color: red;
+	font-weight: bold;
+	text-align: center;
+}
+#menuvertical li{
+	background-color:  #fdf2e9;
+	padding: 10px;
+	display: block;
+	width: 100px;
+	text-align: center;
+}
+#menuvertical li:hover{
+	background-color: orange;
+	color: blue;
+	border-bottom: 4px solid blue;
+}
