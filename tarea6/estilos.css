@@ -1,0 +1,39 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	background-color: blue;
+	padding: 10px;
+}
+header,footer{
+	background-color: orange;
+	border: 3px groove pink;
+	height: 100px;
+	margin: 10px;
+}
+footer{
+	clear: both;
+}
+article{
+	border: 3px groove gray;
+	border-radius: 10px;
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	height: 200px;
+	padding: 5px;
+}
+article:nth-child(1){
+	background-color: red;
+	width: 20%;
+	margin-right: 20px;
+}
+article:nth-child(2){
+	background-color: yellow;
+	width: 55%;
+}
+article:nth-child(3){
+	background-color: green;
+	width: 20%;
+	float: right;
+}
