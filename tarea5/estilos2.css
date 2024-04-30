@@ -1,0 +1,49 @@
+body{
+		background-color: orange;
+} 
+a{
+	text-decoration: none;
+	background-color: pink;
+	padding: 5px;
+	border: 3px groove black;
+	font-weight: bold;
+	margin: 10px;
+}
+
+#menu div a{
+	width: 120px;
+}
+a:hover{
+	background-color: orange;
+}
+#contenido div{
+	margin: 10px;
+}
+#contenido{
+	height: 330px;
+	background-color: skyblue;
+	overflow: hidden;
+}
+#menu{
+	width: 20%;
+	float:left;
+	
+	padding: 10px;
+	height: 330px;
+
+}
+#menu div{
+	text-align: center;
+	padding: 10px;
+	margin-bottom: 5px;
+}
+#submenu{
+	width: 70%;
+	float:right;
+	height: 330px;
+}
+.dia{
+	font-size: 5.5em;
+	padding-bottom: 70px;
+	height: 330px;
+}

@@ -1,0 +1,40 @@
+body{
+	background-color: skyblue;
+} 
+header,footer{
+	height: 75px;
+	background-color: orange;
+	color: blue;
+	font-size: 3em;
+	text-align: center;
+	padding: 10px;
+}
+footer{
+	clear: both;
+}
+.dias{
+	text-align: center;
+	font-size: 2em;
+
+}
+.dia{
+	background-color: pink;
+	padding: 10px;
+	border: 3px groove black;
+	width: 30%;
+	margin: 10px auto; 
+}
+.dia:hover,.otrodia:hover{
+	background-color: orange;
+}
+.otrodia{
+	background-color: pink;
+	padding: 10px;
+	border: 3px groove black;
+	font-size: 1em;
+	width: 120px;
+	float: left;
+	margin: 15px;
+	font-weight: bold;
+	text-align: center;
+}
