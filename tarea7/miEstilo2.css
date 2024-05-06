@@ -1,0 +1,56 @@
+/* Estilos utilizados */
+body {
+	 background-color:  #c2c2a4;
+	}
+header{
+	font-style: italic;
+	letter-spacing: .5em;
+	padding-left: 100px;
+}
+.contenedor{
+	background-color:  #cdddde;
+	padding: 10px;
+	height: 500px;
+}
+.izquierda{
+	float: left;
+	width: 30%;
+	text-align: center;
+}
+.derecha{
+	background-color: white;
+	padding: 10px;
+	float: right;
+	width: 65%;
+	border-radius: 10px;
+}
+.titulo {
+	color:red;
+	font-size:xx-large;
+	}
+img{
+	height: 300px;
+	width: 200px;
+}
+.bajofoto{
+	color:#52be80;
+	text-align: left;
+	padding: 10px;
+}
+
+p:nth-child(3){
+	text-align: right;
+	padding-right: 80px;
+}
+p:nth-child(4){
+	text-align: center;
+}
+a{
+	text-decoration: none;
+	color:#52be80;
+	}
+	
+a:hover{
+	font-weight: bold;
+	color: orange;
+	}
