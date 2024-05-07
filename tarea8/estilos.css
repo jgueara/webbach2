@@ -1,0 +1,43 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	background-color: orange;
+}
+h1{
+	text-align: center;
+	font-size: 3em;
+	letter-spacing: .5em;
+	font-family: 'Comic Sans MS';
+	color: blue;
+}
+fieldset{
+	margin: 10px auto;
+	width: 60%;
+	background-color: skyblue;
+}
+table{
+	width: 100%;
+}
+td{
+	padding: 5px;
+	font-size: large;
+}
+legend{
+	font-weight: bold;
+}
+.botones{
+	text-align: center;
+}
+input[type="submit"],input[type="reset"]{
+	font-weight: bold;
+	font-size: 1.2em;
+	border-radius: 5px;
+	padding: 5px;
+}
+textarea{
+	width: 100%;
+}
+input{
+	height: 2em;
+}

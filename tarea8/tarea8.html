@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Formulario 1</title>
+	<link rel="stylesheet" type="text/css" href="estilos.css">
+</head>
+<body>
+	<h1>Formulario WEB</h1>
+	<form action="#">
+		<fieldset>
+			<legend>Información personal</legend>
+			<table>
+				<tr>
+					<td>Usuario</td>
+					<td>
+						<input type="text" name="usuario">
+					</td>
+				</tr>
+				<tr>
+					<td>Contraseña</td>
+					<td>
+						<input type="password" name="password">
+					</td>
+				</tr>
+				<tr>
+					<td>Ciudad</td>
+					<td>
+						<input type="text" name="ciudad">
+					</td>
+				</tr>
+				<tr>
+					<td>Ciudad</td>
+					<td>
+						<select name="poblacion">
+							<option value="value1">Estepa</option>
+							<option value="value2" selected>Herrera</option>
+							<option value="value3">El Rubio</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>Teléfono</td>
+					<td>
+						<input type="text" name="telefono">
+					</td>
+				</tr>
+				<tr>
+					<td>Fecha Nacimiento</td>
+					<td>
+						<input type="date" name="fechanac">
+					</td>
+				</tr>
+				<tr>
+					<td>Color favorito</td>
+					<td>
+						<input type="color" name="colorfav">
+					</td>
+				</tr>
+				<tr>
+					<td>Email</td>
+					<td>
+						<input type="email" name="correo">
+					</td>
+				</tr>
+				<tr>
+					<td>Curriculum</td>
+					<td>
+						<input type="file" name="curriculum">
+					</td>
+				</tr>
+				<tr>
+					<td>Num. Hermanos</td>
+					<td>
+						<input type="number" name="hermanos">
+					</td>
+				</tr>
+			</table>
+		</fieldset>
+		<fieldset>
+			<legend>Cursos y Aficiones</legend>
+			<table>
+				<tr>
+					<td>
+						<h2>Cursos a realizar</h2>
+						<input type="radio" name="curso" value="HTML">HTML<br>
+						<input type="radio" name="curso" value="CSS">CSS<br>
+						<input type="radio" name="curso" value="JAVASCRIPT">JAVASCRIPT<br>
+					</td>
+					<td>
+						<h2>Aficiones</h2>
+						<input type="checkbox" name="senderismo">Senderismo<br>
+						<input type="checkbox" name="videojuego">Videojuegos<br>
+						<input type="checkbox" name="cine">Cine
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<h2>Observaciones</h2>
+						<textarea name="textarea" rows="10" cols="50">Escribe algo aquí</textarea>
+					</td>
+				</tr>
+			</table>
+			<div class="botones">
+				<input type="submit" name="enviar" value="Enviar">
+				<input type="reset" name="borrar" value="Borrar">
+			</div>
+		</fieldset>
+	</form>
+</body>
+</html>
